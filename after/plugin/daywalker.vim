@@ -1,4 +1,4 @@
-if dracula#should_abort()
+if daywalker#should_abort()
   finish
 endif
 
@@ -10,10 +10,10 @@ if exists('g:loaded_fzf') && ! exists('g:fzf_colors')
     \ 'hl':      ['fg', 'Search'],
     \ 'fg+':     ['fg', 'Normal'],
     \ 'bg+':     ['bg', 'Normal'],
-    \ 'hl+':     ['fg', 'DraculaOrange'],
-    \ 'info':    ['fg', 'DraculaPurple'],
+    \ 'hl+':     ['fg', 'DaywalkerOrange'],
+    \ 'info':    ['fg', 'DaywalkerPurple'],
     \ 'border':  ['fg', 'Ignore'],
-    \ 'prompt':  ['fg', 'DraculaGreen'],
+    \ 'prompt':  ['fg', 'DaywalkerGreen'],
     \ 'pointer': ['fg', 'Exception'],
     \ 'marker':  ['fg', 'Keyword'],
     \ 'spinner': ['fg', 'Label'],
@@ -23,13 +23,13 @@ endif
 "}}}
 " ALE: {{{
 if exists('g:ale_enabled')
-  hi! link ALEError              DraculaErrorLine
-  hi! link ALEWarning            DraculaWarnLine
-  hi! link ALEInfo               DraculaInfoLine
+  hi! link ALEError              DaywalkerErrorLine
+  hi! link ALEWarning            DaywalkerWarnLine
+  hi! link ALEInfo               DaywalkerInfoLine
 
-  hi! link ALEErrorSign          DraculaRed
-  hi! link ALEWarningSign        DraculaOrange
-  hi! link ALEInfoSign           DraculaCyan
+  hi! link ALEErrorSign          DaywalkerRed
+  hi! link ALEWarningSign        DaywalkerOrange
+  hi! link ALEInfoSign           DaywalkerCyan
 
   hi! link ALEVirtualTextError   Comment
   hi! link ALEVirtualTextWarning Comment

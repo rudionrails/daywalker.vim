@@ -1,4 +1,4 @@
-if dracula#should_abort('javascript', 'javascriptreact', 'javascript.jsx')
+if daywalker#should_abort('javascript', 'javascriptreact', 'javascript.jsx')
   finish
 endif
 
@@ -11,11 +11,11 @@ hi! link javaScriptFunction Keyword
 
 hi! link jsArrowFunction           Operator
 hi! link jsClassMethodType         Keyword
-hi! link jsDestructuringAssignment DraculaOrangeItalic
-hi! link jsDocParam                DraculaOrangeItalic
+hi! link jsDestructuringAssignment DaywalkerOrangeItalic
+hi! link jsDocParam                DaywalkerOrangeItalic
 hi! link jsDocTags                 Keyword
 hi! link jsDocType                 Type
-hi! link jsDocTypeBrackets         DraculaCyan
+hi! link jsDocTypeBrackets         DaywalkerCyan
 hi! link jsFuncArgOperator         Operator
 hi! link jsFunction                Keyword
 hi! link jsTemplateBraces          Special
@@ -28,7 +28,7 @@ hi! link jsxTag             Keyword
 hi! link jsxTagName         Keyword
 hi! link jsxComponentName   Type
 hi! link jsxCloseTag        Type
-hi! link jsxAttrib          DraculaGreenItalic
+hi! link jsxAttrib          DaywalkerGreenItalic
 hi! link jsxCloseString     Identifier
 hi! link jsxOpenPunct       Identifier
 

@@ -1,9 +1,9 @@
-if dracula#should_abort('html')
+if daywalker#should_abort('html')
     finish
 endif
 
-hi! link htmlTag         DraculaFg
-hi! link htmlArg         DraculaGreenItalic
-hi! link htmlTitle       DraculaFg
-hi! link htmlH1          DraculaFg
-hi! link htmlSpecialChar DraculaPurple
+hi! link htmlTag         DaywalkerFg
+hi! link htmlArg         DaywalkerGreenItalic
+hi! link htmlTitle       DaywalkerFg
+hi! link htmlH1          DaywalkerFg
+hi! link htmlSpecialChar DaywalkerPurple

@@ -1,17 +1,17 @@
-if dracula#should_abort('rst')
+if daywalker#should_abort('rst')
     finish
 endif
 
 hi! link rstComment                             Comment
 hi! link rstTransition                          Comment
-hi! link rstCodeBlock                           DraculaGreen
-hi! link rstInlineLiteral                       DraculaGreen
-hi! link rstLiteralBlock                        DraculaGreen
-hi! link rstQuotedLiteralBlock                  DraculaGreen
-hi! link rstStandaloneHyperlink                 DraculaLink
-hi! link rstStrongEmphasis                      DraculaOrangeBold
-hi! link rstSections                            DraculaPurpleBold
-hi! link rstEmphasis                            DraculaYellowItalic
+hi! link rstCodeBlock                           DaywalkerGreen
+hi! link rstInlineLiteral                       DaywalkerGreen
+hi! link rstLiteralBlock                        DaywalkerGreen
+hi! link rstQuotedLiteralBlock                  DaywalkerGreen
+hi! link rstStandaloneHyperlink                 DaywalkerLink
+hi! link rstStrongEmphasis                      DaywalkerOrangeBold
+hi! link rstSections                            DaywalkerPurpleBold
+hi! link rstEmphasis                            DaywalkerYellowItalic
 hi! link rstDirective                           Keyword
 hi! link rstSubstitutionDefinition              Keyword
 hi! link rstCitation                            String

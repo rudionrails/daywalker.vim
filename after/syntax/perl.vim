@@ -1,38 +1,38 @@
-if dracula#should_abort('perl')
+if daywalker#should_abort('perl')
     finish
 endif
 
 " Regex
-hi! link perlMatchStartEnd       DraculaRed
+hi! link perlMatchStartEnd       DaywalkerRed
 
 " Builtin functions
-hi! link perlOperator            DraculaCyan
-hi! link perlStatementFiledesc   DraculaCyan
-hi! link perlStatementFiles      DraculaCyan
-hi! link perlStatementFlow       DraculaCyan
-hi! link perlStatementHash       DraculaCyan
-hi! link perlStatementIOfunc     DraculaCyan
-hi! link perlStatementIPC        DraculaCyan
-hi! link perlStatementList       DraculaCyan
-hi! link perlStatementMisc       DraculaCyan
-hi! link perlStatementNetwork    DraculaCyan
-hi! link perlStatementNumeric    DraculaCyan
-hi! link perlStatementProc       DraculaCyan
-hi! link perlStatementPword      DraculaCyan
-hi! link perlStatementRegexp     DraculaCyan
-hi! link perlStatementScalar     DraculaCyan
-hi! link perlStatementSocket     DraculaCyan
-hi! link perlStatementTime       DraculaCyan
-hi! link perlStatementVector     DraculaCyan
+hi! link perlOperator            DaywalkerCyan
+hi! link perlStatementFiledesc   DaywalkerCyan
+hi! link perlStatementFiles      DaywalkerCyan
+hi! link perlStatementFlow       DaywalkerCyan
+hi! link perlStatementHash       DaywalkerCyan
+hi! link perlStatementIOfunc     DaywalkerCyan
+hi! link perlStatementIPC        DaywalkerCyan
+hi! link perlStatementList       DaywalkerCyan
+hi! link perlStatementMisc       DaywalkerCyan
+hi! link perlStatementNetwork    DaywalkerCyan
+hi! link perlStatementNumeric    DaywalkerCyan
+hi! link perlStatementProc       DaywalkerCyan
+hi! link perlStatementPword      DaywalkerCyan
+hi! link perlStatementRegexp     DaywalkerCyan
+hi! link perlStatementScalar     DaywalkerCyan
+hi! link perlStatementSocket     DaywalkerCyan
+hi! link perlStatementTime       DaywalkerCyan
+hi! link perlStatementVector     DaywalkerCyan
 
 " Highlighting for quoting constructs, tied to existing option in vim-perl
 if get(g:, 'perl_string_as_statement', 0)
-  hi! link perlStringStartEnd DraculaRed
+  hi! link perlStringStartEnd DaywalkerRed
 endif
 
 " Signatures
-hi! link perlSignature           DraculaOrangeItalic
-hi! link perlSubPrototype        DraculaOrangeItalic
+hi! link perlSignature           DaywalkerOrangeItalic
+hi! link perlSubPrototype        DaywalkerOrangeItalic
 
 " Hash keys
-hi! link perlVarSimpleMemberName DraculaPurple
+hi! link perlVarSimpleMemberName DaywalkerPurple

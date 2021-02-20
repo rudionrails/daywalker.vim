@@ -1,4 +1,4 @@
-if dracula#should_abort('rust')
+if daywalker#should_abort('rust')
     finish
 endif
 

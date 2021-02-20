@@ -1,20 +1,20 @@
 " =============================================================================
-" Filename: autoload/lightline/colorscheme/dracula.vim
+" Filename: autoload/lightline/colorscheme/daywalker.vim
 " Author: adamalbrecht
 " License: MIT License
 " Last Change: 2018/04/11
 " =============================================================================
 
-let s:black    = g:dracula#palette.bg
-let s:gray     = g:dracula#palette.selection
-let s:white    = g:dracula#palette.fg
-let s:darkblue = g:dracula#palette.comment
-let s:cyan     = g:dracula#palette.cyan
-let s:green    = g:dracula#palette.green
-let s:orange   = g:dracula#palette.orange
-let s:purple   = g:dracula#palette.purple
-let s:red      = g:dracula#palette.red
-let s:yellow   = g:dracula#palette.yellow
+let s:black    = g:daywalker#palette.bg
+let s:gray     = g:daywalker#palette.selection
+let s:white    = g:daywalker#palette.fg
+let s:darkblue = g:daywalker#palette.comment
+let s:cyan     = g:daywalker#palette.cyan
+let s:green    = g:daywalker#palette.green
+let s:orange   = g:daywalker#palette.orange
+let s:purple   = g:daywalker#palette.purple
+let s:red      = g:daywalker#palette.red
+let s:yellow   = g:daywalker#palette.yellow
 
 if exists('g:lightline')
 
@@ -35,7 +35,7 @@ if exists('g:lightline')
   let s:p.normal.error = [ [ s:red, s:black ] ]
   let s:p.normal.warning = [ [ s:yellow, s:black ] ]
 
-  let g:lightline#colorscheme#dracula#palette = lightline#colorscheme#flatten(s:p)
+  let g:lightline#colorscheme#daywalker#palette = lightline#colorscheme#flatten(s:p)
 
 endif
 

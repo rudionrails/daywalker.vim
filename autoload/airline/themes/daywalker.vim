@@ -1,4 +1,4 @@
-" Dracula Airline Theme: {{{
+" Daywalker Airline Theme: {{{
 "
 " Copyright 2016, All rights reserved
 "
@@ -14,8 +14,8 @@
 " more attr-list items as input, transforms it to the format accepted by
 " airline#themes#generate_color_map and returns that value
 func! s:clr(fg, bg, ...)
-  let l:fg = g:dracula#palette[a:fg]
-  let l:bg = g:dracula#palette[a:bg]
+  let l:fg = g:daywalker#palette[a:fg]
+  let l:bg = g:daywalker#palette[a:bg]
   return [ l:fg[0], l:bg[0], l:fg[1], l:bg[1] ] +
        \ filter(copy(a:000), 'type(v:val) == 1 && len(v:val) > 0')
 endfunc
@@ -38,7 +38,7 @@ endfunc
 
 "}}}
 
-let g:airline#themes#dracula#palette = {
+let g:airline#themes#daywalker#palette = {
 \   'normal': s:color_map(
 \       ['bg', 'purple'],
 \       ['fg', 'comment'],
@@ -133,7 +133,7 @@ let g:airline#themes#dracula#palette = {
 " Extensions: {{{
 " Tabline: {{{
 if get(g:, 'airline#extensions#tabline#enabled', 0)
-  let g:airline#themes#dracula#palette.tabline = {
+  let g:airline#themes#daywalker#palette.tabline = {
         \ 'airline_tabfill': s:clr('bg', 'bglight'),
         \
         \ 'airline_tab': s:clr('comment', 'bg'),
@@ -148,7 +148,7 @@ endif
 "}}}
 " CtrlP: {{{2
 if exists('g:loaded_ctrlp')
-  let g:airline#themes#dracula#palette.ctrlp = airline#extensions#ctrlp#generate_color_map(
+  let g:airline#themes#daywalker#palette.ctrlp = airline#extensions#ctrlp#generate_color_map(
         \ s:clr('fg', 'selection'),
         \ s:clr('fg', 'comment'),
         \ s:clr('fg', 'purple'),

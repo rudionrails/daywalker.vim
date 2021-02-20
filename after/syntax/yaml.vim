@@ -1,12 +1,12 @@
-if dracula#should_abort('yaml')
+if daywalker#should_abort('yaml')
     finish
 endif
 
-hi! link yamlAlias           DraculaGreenItalicUnderline
-hi! link yamlAnchor          DraculaPinkItalic
-hi! link yamlBlockMappingKey DraculaCyan
-hi! link yamlFlowCollection  DraculaPink
+hi! link yamlAlias           DaywalkerGreenItalicUnderline
+hi! link yamlAnchor          DaywalkerPinkItalic
+hi! link yamlBlockMappingKey DaywalkerCyan
+hi! link yamlFlowCollection  DaywalkerPink
 hi! link yamlFlowIndicator   Delimiter
-hi! link yamlNodeTag         DraculaPink
-hi! link yamlPlainScalar     DraculaYellow
+hi! link yamlNodeTag         DaywalkerPink
+hi! link yamlPlainScalar     DaywalkerYellow
 
